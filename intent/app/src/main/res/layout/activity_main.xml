@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:text="Search"
         android:background="#66776"
-        
+
         android:onClick="search"/>
 
 </LinearLayout>

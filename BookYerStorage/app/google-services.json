@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "986176066859",
+    "project_id": "bookyerstorage-8cd1c",
+    "storage_bucket": "bookyerstorage-8cd1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986176066859:android:5a449909f83834ce1a216e",
+        "android_client_info": {
+          "package_name": "com.example.bookyerstorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986176066859-4o4togp9jr44s40ba720lch4bpoj3tts.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookyerstorage",
+            "certificate_hash": "78b8b2964f138a8ee82a7e971cb612b11bead110"
+          }
+        },
+        {
+          "client_id": "986176066859-01r6uundqtf2geh043fvab0pqplb80pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAJ_sSRK9tkeWv7a1WRuMZqmAeW_b3duE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986176066859-01r6uundqtf2geh043fvab0pqplb80pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

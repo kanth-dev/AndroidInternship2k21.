@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "162182310847",
+    "project_id": "bookmystorage-36cd5",
+    "storage_bucket": "bookmystorage-36cd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162182310847:android:d44d146191752486ee0f0a",
+        "android_client_info": {
+          "package_name": "com.example.bookmystorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162182310847-ebcs14369gn54uk5q17cdfpmlcquici3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookmystorage",
+            "certificate_hash": "78b8b2964f138a8ee82a7e971cb612b11bead110"
+          }
+        },
+        {
+          "client_id": "162182310847-6be93fl8d2l5af5a3f6f276sclmouhke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2kX0ZmVzObKfm_xeLWtQ-hBMeLKEzdU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162182310847-6be93fl8d2l5af5a3f6f276sclmouhke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
