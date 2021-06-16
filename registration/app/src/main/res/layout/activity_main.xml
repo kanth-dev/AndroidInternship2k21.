@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grad"
+    android:backgroundTintMode="add"
+
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:shadowColor="@color/teal_200"
+        android:textStyle="bold"
+        android:textSize="25sp"
+
+        android:text="Registration Form"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textColorHighlight="@color/teal_200"
+
+
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/teal_200"
+        android:text="_______________________________________________________________"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:backgroundTintMode="multiply"
+        android:background="@drawable/bt">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+      android:drawableLeft="@drawable/ic_baseline_person_24"
+
+        android:hint="Name"
+        android:id="@+id/name"
+        android:inputType="text"
+        android:textColor="#FFEB3B" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:id="@+id/number"
+        android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:id="@+id/mail"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:inputType="textEmailAddress"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:boxStrokeWidth="0dp"
+            app:passwordToggleEnabled="true"
+            app:startIconDrawable="@drawable/ic_baseline_lock_24"
+            app:startIconTint="#E20F0F">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bt"
+            android:padding="6dp"
+            android:drawablePadding="6dp"
+            android:id="@+id/pass"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:id="@+id/gender"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Select Gender"
+            android:textStyle="bold" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="male"
+            android:checked="false"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="female"
+            android:checked="false"/>
+
+    </RadioGroup>
+
+        <Spinner
+
+            android:id="@+id/spinner"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:gravity="center" />
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_marginTop="8dp"
+
+                  android:layout_height="wrap_content"
+                  android:text="Select Your Language"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp"
+        android:text="Spanish"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:id="@+id/hin"
+        android:layout_height="wrap_content"
+        android:text="Hindi"/>
+    <CheckBox
+        android:id="@+id/tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telugu"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eng"
+        android:text="English"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dob"
+            android:onClick="dob"
+            android:hint="Enter DOB dd/mm/yyyy"
+            android:inputType="date"/>
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:backgroundTint="#1111"
+        android:backgroundTintMode="multiply"
+        android:onClick="register"
+            android:id="@+id/register"
+
+
+
+          android:background="@drawable/bt"
+        />
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

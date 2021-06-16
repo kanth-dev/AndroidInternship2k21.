@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">scroll</string>
+    <string name="head">K A N T H</string>
+    <string name="shead"></string>
+    <string name="text">Android, operating system for cellular telephones and tablet computers. Android began in 2003 as a project of the American technology company Android Inc to develop an operating system for digital cameras. In 2004 the project changed to become an operating system for smartphones. Android Inc was bought by the American search engine company Google Inc in 2005. At Google, the Android team decided to base their project on Linux, an open source operating system for personal computers.
+
+<br>Go straight to the stuff that matters most. Because Android 11 is optimized for how you use your phone. Giving you powerful device controls. And easier ways to manage conversations, privacy settings and so much more
+    the animals
+    For Android Studio 1.5:
+
+Right click on res, new Image Asset
+On Asset type choose Action Bar and Tab Icons
+Choose the image path
+Give your image a name in Resource name
+Next->Finish
+Update for Android Studio 2.2:
+
+Right click on res, new Image Asset
+
+On Icon Type choose Action Bar and Tab Icons
+
+On Asset type choose Image
+
+On Path choose your image path
+
+Next->Finish
+
+The image will be saved in the /res/drawable folder.
+
+Warning!
+If you choose to use images other than icons in SVG or PNG be aware that it could turn grey if the image is not transparent. You can find an answer in comments for this problem but none of these are verified by me because I never encountered this problem. I suggest you to use icons from here: Material icons
+
+Answers:
+Copy .png image and paste to drawable folder.
+
+You can add image by using xml file
+
+ .</br></string>
+
+
+</resources>
