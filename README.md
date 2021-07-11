@@ -1,2 +1,2 @@
 # AndroidInternship2k21.
-Random is a project 
+random is a project 
