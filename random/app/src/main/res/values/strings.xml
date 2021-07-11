@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">random</string>
+    <string name="a12">A11</string>
+
+    <string-array name="WareHouse_list">
+        <item>
+            Kanth WareHOuse
+
+        </item>
+        <item>SS WareHouse</item>
+        <item>KB WareHouse</item>
+    </string-array>
+
+</resources>

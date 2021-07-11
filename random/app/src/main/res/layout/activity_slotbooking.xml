@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="horizontal"
+    android:background="@drawable/back"
+    tools:context=".Slotbooking">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:id="@+id/tw1"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <GridLayout
+                android:layout_width="450dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:rowCount="10"
+
+                android:columnCount="9"
+                android:id="@+id/grid2">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+
+                        android:text="1"
+                        android:layout_gravity="top"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="top"
+                        android:text="1"/>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+
+                        android:text="2"
+                        android:layout_gravity="top"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+
+                        android:text="3"
+                        android:layout_gravity="top"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+
+                        android:text="4"
+                        android:layout_gravity="top"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+
+                        android:text="5"
+                        android:layout_gravity="top"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+
+                        android:text="6"
+                        android:layout_gravity="top"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+
+                        android:text="7"
+                        android:layout_gravity="top"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+
+                        android:text="8"
+                        android:layout_gravity="top"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"
+
+                        android:text="9"
+                        android:layout_gravity="top"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+
+                        android:gravity="center"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="50dp"
+                        android:layout_height="70dp"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="8dp"
+
+                        android:layout_rowWeight="1"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            android:src="@drawable/slot"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="top"
+
+                            android:text="2"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="2dp"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                    </androidx.cardview.widget.CardView>
+                    android:layout_gravity="top"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+
+
+                </androidx.cardview.widget.CardView> <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+
+
+            </androidx.cardview.widget.CardView> <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+
+
+            </androidx.cardview.widget.CardView> <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+
+
+            </androidx.cardview.widget.CardView> <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+
+
+            </androidx.cardview.widget.CardView> <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/i"
+                    android:src="@drawable/slot"/>
+
+
+            </androidx.cardview.widget.CardView> <androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+
+
+            </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="3"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_vertical"
+                        />
+
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="4"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+            </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="5"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="6"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="7"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="8"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="9"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="10"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot" />
+            </androidx.cardview.widget.CardView><androidx.cardview.widget.CardView
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+
+                android:layout_rowWeight="1"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/slot"/>
+            </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp"
+
+                    android:layout_rowWeight="1"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/slot"/>
+                </androidx.cardview.widget.CardView>
+
+
+
+            </GridLayout>
+
+
+
+
+        </HorizontalScrollView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="total area booked"
+            android:id="@+id/tab"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="cost per day"
+            android:id="@+id/cpd"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/days"
+            android:inputType="number"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mul"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book your Area"
+
+            android:onClick="click"/>
+
+    </LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".booking">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#D5CFCF"
+        android:id="@+id/tan"
+        tools:ignore="MissingConstraints" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:id="@+id/grid"
+
+        android:layout_height="wrap_content"
+        android:rowCount="5"
+        android:columnCount="3"
+        tools:ignore="MissingConstraints">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="156dp"
+            android:layout_rowWeight="1"
+
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="38dp">
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="130dp"
+                android:src="@drawable/slot" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:id="@+id/a1"
+                android:text="A1"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="156dp"
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="38dp">
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="130dp"
+                android:src="@drawable/slot" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/a2"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="A2"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+
+            android:layout_height="156dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="38dp">
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="130dp"
+                android:src="@drawable/slot" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/a3"
+                android:gravity="center"
+                android:text="A3"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="156dp"
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="38dp">
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="130dp"
+                android:src="@drawable/slot" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="B1"
+                android:id="@+id/b1"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="156dp"
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="38dp">
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="130dp"
+                android:src="@drawable/slot" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:id="@+id/b2"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="B2"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="156dp"
+            android:layout_rowWeight="1"
+
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="38dp">
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="130dp"
+                android:src="@drawable/slot" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/b3"
+                android:gravity="center"
+                android:text="B3"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="156dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            app:cardCornerRadius="8dp"
+            app:cardElevation="38dp">
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="130dp"
+                android:src="@drawable/slot" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="C1"
+                android:id="@+id/c1"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="156dp"
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="38dp">
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="130dp"
+                android:src="@drawable/slot" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="C2"
+                android:id="@+id/c2"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="156dp"
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="38dp">
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="130dp"
+                android:src="@drawable/slot" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="C3"
+                android:id="@+id/c3"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+
+            android:layout_height="156dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="38dp">
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="130dp"
+                android:src="@drawable/slot" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="D1"
+                android:id="@+id/d1"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="156dp"
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="38dp">
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="130dp"
+                android:src="@drawable/slot" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="D2"
+                android:id="@+id/d2"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+
+            android:layout_height="156dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="38dp">
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="130dp"
+                android:src="@drawable/slot" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="D3"
+                android:id="@+id/d3"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="156dp"
+
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="38dp">
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="130dp"
+                android:src="@drawable/slot" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="E1"
+                android:id="@+id/e1"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="156dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+
+            app:cardElevation="38dp">
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="130dp"
+                android:src="@drawable/slot" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="E2"
+                android:id="@+id/e2"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+
+            android:layout_height="156dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="38dp">
+
+            <ImageView
+                android:layout_width="133dp"
+                android:layout_height="130dp"
+                android:src="@drawable/slot" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="E3"
+                android:id="@+id/e3"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

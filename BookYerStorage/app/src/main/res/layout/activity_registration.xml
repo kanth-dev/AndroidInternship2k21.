@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:text="BookYerStorage"
         android:textStyle="bold"
+
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="40sp"/>
@@ -21,6 +22,7 @@
         android:textColor="@color/black"
         android:gravity="center"
         android:layout_marginTop="20dp"
+
         android:textSize="30sp"
         android:textStyle="bold"
         android:text="Registration"/>
@@ -29,6 +31,7 @@
         android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
+        android:layout_margin="10dp"
 
         android:textSize="15sp"
         android:textStyle="bold"
@@ -44,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
-
+        android:layout_margin="10dp"
         android:textSize="15sp"
         android:textStyle="bold"
         android:text="Email:"
@@ -59,6 +62,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
+        android:layout_margin="10dp"
 
         android:textSize="15sp"
         android:textStyle="bold"
@@ -73,6 +77,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:textColor="@color/black"
 
         android:textSize="15sp"
